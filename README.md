@@ -8,11 +8,11 @@ The open source alternative to Perplexity, built on top of Llama.Cpp, FastApi, H
 - [Getting Started](#getting_started)
 - [Usage](#usage)
 
-## About `<a name = "about"></a>`
+## About 
 
 This repository contains all the application
 
-## Getting Started `<a name = "getting_started"></a>`
+## Getting Started 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
@@ -66,6 +66,6 @@ python3 -m llama_cpp.server --config_file config_file
 ```
 
 
-## Usage `<a name = "usage"></a>`
+## Usage 
 
 After building and running all images you should go to http://localhost:3000 and see the Luminari application running.
