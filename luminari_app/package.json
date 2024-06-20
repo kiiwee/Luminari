@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/ui": "^2.13.0",
+    "nuxt": "^3.10.1"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.13",
+    "ai": "^3.1.12",
+    "got": "^14.3.0",
+    "metascraper": "^5.45.8",
+    "metascraper-description": "^5.45.7",
+    "metascraper-image": "^5.45.7",
+    "metascraper-title": "^5.45.7",
+    "metascraper-url": "^5.45.7",
+    "ollama-ai-provider": "^0.6.0",
+    "open-graph-scraper": "^6.5.1",
+    "openai": "^4.47.1"
+  }
+}

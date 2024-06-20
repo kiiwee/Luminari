@@ -1,0 +1,16 @@
+{
+    "host": "0.0.0.0",
+    "port": 4200,
+    "models": [
+        {
+            "model": "Hermes-2-Pro-Llama-3-Instruct-Merged-DPO-F16.gguf",
+            "model_alias": "hermes",
+            "chat_format": "chatml",
+            "n_gpu_layers": 32,
+            "offload_kqv": true,
+            "n_threads": 10,
+            "n_batch": 512,
+            "n_ctx": 8192
+        }
+    ]
+}

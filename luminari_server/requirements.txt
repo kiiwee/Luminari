@@ -1,0 +1,6 @@
+beautifulsoup4
+fastapi==0.95.1 
+uvicorn==0.22.0 
+openai 
+requests
+json
